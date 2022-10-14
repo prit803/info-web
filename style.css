@@ -1,0 +1,25 @@
+.box {
+
+    background-color: lightcoral;
+    border: 2px solid black;
+    display: flex;
+
+    /* chnage direction of main-axis */
+    flex-direction: row-reverse;
+
+    /* wrap items if there is no space */
+    flex-wrap: wrap;
+
+    /* justify content according to main-axis */
+    justify-content: space-around;
+
+    /* align items according to cross-axis */
+    align-items: center;
+
+    /* align-contant will only work if we have more than 2 row and empty space in cross axis */
+    align-content: center;
+
+    /* Shorthand of flex-direction and flex-wrap */
+    flex-flow: row wrap;  
+
+}
